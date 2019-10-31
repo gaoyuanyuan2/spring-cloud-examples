@@ -10,3 +10,5 @@ Spring Cloud Zuul路由是微服务架构的不可或缺的一部分，提供动
 [说明](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
 ## spring-cloud-zuul：Spring Cloud Zuul使用高级篇 Filter 鉴权 熔断 重试
+
+[说明](http://www.ityouknow.com/springcloud/2018/01/20/spring-cloud-zuul.html)
