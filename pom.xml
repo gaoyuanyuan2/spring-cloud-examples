@@ -14,6 +14,11 @@
         <module>spring-cloud-eureka\spring-cloud-eureka</module>
         <module>spring-cloud-eureka\spring-cloud-eureka-cluster</module>
         <module>spring-cloud-eureka\spring-cloud-eureka-two</module>
+        <module>hystrix-dashboard-turbine\hystrix-dashboard-turbine</module>
+        <module>hystrix-dashboard-turbine\spring-cloud-consumer-hystrix-dashboard</module>
+        <module>hystrix-dashboard-turbine\spring-cloud-consumer-node1</module>
+        <module>hystrix-dashboard-turbine\spring-cloud-consumer-node2</module>
+        <module>hystrix-dashboard-turbine\spring-cloud-eureka</module>
     </modules>
 
 </project>
