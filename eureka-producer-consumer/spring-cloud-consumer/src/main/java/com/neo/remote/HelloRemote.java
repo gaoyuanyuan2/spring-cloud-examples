@@ -16,4 +16,6 @@ public interface HelloRemote {
     public String hello(@RequestParam(value = "name") String name);
 
 
+    @RequestMapping("/multiply")
+    public String multiply(@RequestParam double x, @RequestParam double y);
 }

@@ -6,9 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-	
+
     @RequestMapping("/hello")
-    public String index(@RequestParam String name) {
-        return "hello "+name+"，this is first messge";
+    public String index(@RequestParam String name)
+    {
+        return "hello " + name + "，this is first messge";
+    }
+
+    @RequestMapping("/multiply")
+    public String multiply(@RequestParam double x, @RequestParam double y)
+    {
+        return x + " * " +  y +" = " + x * y;
     }
 }
